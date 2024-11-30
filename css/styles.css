@@ -92,6 +92,7 @@ body {
 /* Стиль для address */
 .contact-address {
   font-style: normal;
+  display: flex;
 }
 
 .contact-link {
