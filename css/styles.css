@@ -1,11 +1,10 @@
-
 /* Домашнє завдання номер 3 */
 
 /* Загальний стиль */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Головний стиль для хедера */
@@ -32,28 +31,28 @@ body {
 
 /* Контейнер для хедера */
 .header-container {
-  width: 1158px;             /* Встановлює фіксовану ширину */
-  margin: 0 auto;            /* Центрування на сторінці */
-  padding: 0 15px 0 15px;    /* Внутрішні відступи з повним записом */
-  display: flex;             /* Гнучке розміщення елементів */
+  width: 1158px; /* Встановлює фіксовану ширину */
+  margin: 0 auto; /* Центрування на сторінці */
+  padding: 0 15px 0 15px; /* Внутрішні відступи з повним записом */
+  display: flex; /* Гнучке розміщення елементів */
   justify-content: space-between; /* Розташування навігації та контактів по краях */
-  align-items: center;       /* Вирівнювання по вертикалі */
+  align-items: center; /* Вирівнювання по вертикалі */
 }
 
 .logo {
-  margin-right: 76px;       /* Встановлює відступ справа від логотипа */
+  margin-right: 76px; /* Встановлює відступ справа від логотипа */
 }
 
 /* Дефолтний клас container для стандартизації розмірів */
 .container {
-  width: 1158px;             /* Встановлює фіксовану ширину для контенту */
-  margin: 0 auto;            /* Центрування контейнера на сторінці */
-  padding: 0 15px;           /* Внутрішні відступи з обох боків */
+  width: 1158px; /* Встановлює фіксовану ширину для контенту */
+  margin: 0 auto; /* Центрування контейнера на сторінці */
+  padding: 0 15px; /* Внутрішні відступи з обох боків */
 }
 
 .nav-container {
-  display: flex;             /* Використовує flex для горизонтального розміщення елементів */
-  align-items: center;       /* Вирівнює елементи по вертикалі */
+  display: flex; /* Використовує flex для горизонтального розміщення елементів */
+  align-items: center; /* Вирівнює елементи по вертикалі */
 }
 
 /* Логотип: хедер і футер */
@@ -101,11 +100,13 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  display: flex;     /* Розташовує елементи списку горизонтально */
-  gap: 40px;         /* Встановлює відступи між пунктами списку */
-  padding: 0;        /* Вимикає внутрішні відступи списку */
-  list-style: none;  /* Вимикає маркери списку */
+}
 
+.contact-list {
+  display: flex; /* Розташовує елементи списку горизонтально */
+  gap: 40px; /* Встановлює відступи між пунктами списку */
+  padding: 0; /* Вимикає внутрішні відступи списку */
+  list-style: none; /* Вимикає маркери списку */
 }
 
 .contact-link:hover,
@@ -129,7 +130,7 @@ body {
 }
 
 .action-button {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -143,7 +144,7 @@ body {
 
 .action-button:hover,
 .action-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* Друга секція */
@@ -188,7 +189,7 @@ body {
 
 .menu {
   display: flex;
-  gap: 40px;  /* Встановлює відступи між пунктами меню */
+  gap: 40px; /* Встановлює відступи між пунктами меню */
 }
 
 .team-item {
@@ -251,8 +252,7 @@ body {
 .site-footer {
   background-color: #2e2f42;
   /*  text-align: left;  */
-  
-  }
+}
 
 .footer-description {
   font-size: 16px;
