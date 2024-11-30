@@ -207,10 +207,10 @@ body {
 
 /*  Зображення - блочний контейнер  */
 
-.image-container { 
-  max-width: 
-  padding-left:  
-  padding-right:  
-  margin-left:  
-  margin-right:  
-  }
+.image-container {
+  max-width: 600px; /* Максимальна ширина контейнера */
+  padding-left: 15px; /* Відступ зліва */
+  padding-right: 15px; /* Відступ справа */
+  margin-left: auto; /* Центрування контейнера */
+  margin-right: auto; /* Центрування контейнера */
+}
