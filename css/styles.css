@@ -176,6 +176,7 @@ body {
 .team-list {
   list-style: none; /* Видаляє крапки */
   margin: 0;
+  display: flex;
 }
 
 .team-item {
