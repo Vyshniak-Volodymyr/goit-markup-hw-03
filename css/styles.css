@@ -1,5 +1,15 @@
+/* Домашнє завдання №3 */
 
-/* Домашнє завдання номер 3 */
+/* Обнулення дефолтних маржинів та падінгів */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
 
 /* Загальний стиль */
 body {
@@ -8,29 +18,25 @@ body {
   background-color: #FFFFFF;
 }
 
-/* Логотип: хедер і футер */
+/* Логотип */
 .webstudio-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
 
-.logo-span,
-.logo-span-footer {
+.logo-span, .logo-span-footer {
   color: #2e2f42;
 }
 
-/* Стиль для навігаційних посилань */
+/* Навігаційні посилання */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -40,15 +46,13 @@ body {
   color: #404bbf;
 }
 
-/* Стиль для address */
+/* Контактна інформація */
 .contact-address {
   font-style: normal;
 }
 
 .contact-link {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
@@ -66,24 +70,17 @@ body {
 
 .section-title {
   font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .action-button {
   background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
   cursor: pointer;
-  transition: color 0.3s ease;
 }
 
 .action-button:hover,
@@ -91,116 +88,38 @@ body {
   background-color: #404BBF;
 }
 
-/* Друга секція */
-.list-title {
-  font-weight: 500; /* Жирність */
-  font-size: 20px; /* Розмір шрифту */
-  line-height: 1.2; /* Висота рядка */
-  letter-spacing: 0.02em; /* Відстань між літерами */
-  color: #2e2f42; /* Колір тексту */
-  margin-bottom: 10px; /* Відступ від наступного елемента */
-}
-
-.list-paragraph {
-  font-size: 16px; /* Розмір шрифту */
-  line-height: 1.5; /* Висота рядка */
-  letter-spacing: 0.02em; /* Відстань між літерами */
-  color: #434455; /* Колір тексту */
-  margin: 0; /* Без додаткових відступів */
-}
-
-/* Третя секція */
-.team-section {
-  background-color: #f4f4fd;
-}
-
+/* Команда */
 .team-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .team-list {
-  list-style: none; /* Видаляє крапки */
   margin: 0;
+  padding-left: 0;
 }
 
-.team-item {
-  background-color: #ffffff;
-  margin-bottom: 16px;
-}
-
-.team-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.team-role {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Четверта секція */
-
-.team-section-portfolio {
-  background-color: #fdfdfd;
-}
-
-.portfolio-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.portfolio-item {
-  margin-bottom: 16px;
-}
-
-.portfolio-name {
-  font-family: "Roboto", sans-serif;
+.list-title {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  margin-bottom: 10px;
 }
 
-.portfolio-role {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+.list-paragraph {
   font-size: 16px;
   color: #434455;
+  margin: 0;
 }
 
 /* Футер */
 .site-footer {
   background-color: #2e2f42;
-  /*  text-align: left;  */
-  
-  }
+}
 
 .footer-description {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  /* color: var(--footer-text-color, #f4f4fd); */
-}
-
-.logo-span-footer {
   color: #f4f4fd;
 }
