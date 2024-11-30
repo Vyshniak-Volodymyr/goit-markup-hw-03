@@ -179,6 +179,11 @@ body {
   display: flex;
 }
 
+.menu {
+  display: flex;
+  gap: 40px;  /* Встановлює відступи між пунктами меню */
+}
+
 .team-item {
   background-color: #ffffff;
   margin-bottom: 16px;
