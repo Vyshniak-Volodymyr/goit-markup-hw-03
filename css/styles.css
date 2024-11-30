@@ -47,6 +47,11 @@ body {
   padding: 0 15px;           /* Внутрішні відступи з обох боків */
 }
 
+.nav-container {
+  display: flex;             /* Використовує flex для горизонтального розміщення елементів */
+  align-items: center;       /* Вирівнює елементи по вертикалі */
+}
+
 /* Логотип: хедер і футер */
 .webstudio-link {
   font-family: "Raleway", sans-serif;
