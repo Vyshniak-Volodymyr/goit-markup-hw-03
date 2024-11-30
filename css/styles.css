@@ -101,6 +101,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  display: flex;     /* Розташовує елементи списку горизонтально */
+  gap: 40px;         /* Встановлює відступи між пунктами списку */
+  padding: 0;        /* Вимикає внутрішні відступи списку */
+  list-style: none;  /* Вимикає маркери списку */
+
 }
 
 .contact-link:hover,
