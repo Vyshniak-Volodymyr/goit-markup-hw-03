@@ -8,6 +8,13 @@ body {
   background-color: #FFFFFF;
 }
 
+/* Головний стиль для хедера */
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #f9f9ff;
+  padding: 10px 20px;
+}
+
 /* Логотип: хедер і футер */
 .webstudio-link {
   font-family: "Raleway", sans-serif;
