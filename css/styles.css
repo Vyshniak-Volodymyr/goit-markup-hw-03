@@ -81,6 +81,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0; /* Встановлює вертикальні відступи по 24px для всіх посилань у меню */
 }
 
 .nav-link:hover,
