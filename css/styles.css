@@ -15,6 +15,21 @@ body {
   padding: 10px 20px;
 }
 
+/* Контейнер із стандартизованими розмірами */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Контейнер для хедера */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
 /* Логотип: хедер і футер */
 .webstudio-link {
   font-family: "Raleway", sans-serif;
