@@ -109,6 +109,7 @@ body {
 
 .section-title {
   font-size: 56px; /* Розмір шрифту */
+  max-width: 496px; /* Визначення ширини тексту */
   line-height: 1.07; /* Висота рядка */
   text-align: center; /* Вирівнювання тексту по центру */
   letter-spacing: 0.02em; /* Відстань між літерами */
