@@ -133,6 +133,11 @@ body {
   background-color: #404bbf; /* Колір фону при наведенні або фокусі */
 }
 
+/* Section №2 */
+.second-section {
+  padding: 120px 0; /* Відступи зверху та знизу */
+}
+
 /* Друга секція */
 .list-title {
   font-weight: 500; /* Жирність */
