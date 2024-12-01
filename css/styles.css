@@ -145,7 +145,7 @@ body {
   line-height: 1.2; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #2e2f42; /* Колір тексту */
-  margin-bottom: 10px; /* Відступ від наступного елемента */
+  margin-bottom: 8px; /* 10px Відступ від наступного елемента */
 }
 
 .list-paragraph {
@@ -154,6 +154,15 @@ body {
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #434455; /* Колір тексту */
   margin: 0; /* Без додаткових відступів */
+}
+
+/* Визначення gap між елементами списку */
+.list-section-two {
+  margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
+}
+
+.list-section-two:last-child {
+  margin-right: 0; /* Для останнього елемента відступ обнуляється */
 }
 
 .list-section-two.team-list {
@@ -167,6 +176,7 @@ body {
   background-color: #f4f4fd; /* Фон секції */
 }
 
+/* Паттерн для приховання заголовка */
 .visually-hidden {
   position: absolute; /* Виходить з потоку документа */
   width: 1px; /* Мінімальна ширина */
