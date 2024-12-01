@@ -119,16 +119,13 @@ body {
 }
 
 .action-button {
-  background-color: #4d5ae5; /* Колір фону кнопки */
-  font-family: "Roboto", sans-serif; /* Шрифт кнопки */
-  font-weight: 500; /* Жирність шрифту */
-  font-size: 16px; /* Розмір шрифту */
-  line-height: 1.5; /* Висота рядка */
-  letter-spacing: 0.04em; /* Відстань між літерами */
-  color: #ffffff; /* Колір тексту */
-  border: none; /* Без рамки */
-  cursor: pointer; /* Вказівник на кнопці */
-  transition: color 0.3s ease; /* Плавний перехід кольору */
+  display: block; /* Для можливості центрування через margin */
+  min-width: 169px; /* Мінімальна ширина кнопки */
+  height: 56px; /* Висота кнопки */
+  border: none; /* Вимкнення стандартного оформлення */
+  background-color: var(--primary-color, #4d5ae5); /* Фон кнопки */
+  border-radius: 4px; /* Заокруглення */
+  cursor: pointer; /* Тип курсору */
 }
 
 .action-button:hover,
@@ -275,4 +272,3 @@ body {
   height: auto; /* Зберігає пропорції зображення */
   margin-bottom: 15px; /* Відступ знизу */
 }
-
