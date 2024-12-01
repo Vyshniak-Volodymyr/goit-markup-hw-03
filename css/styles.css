@@ -156,6 +156,12 @@ body {
   margin: 0; /* Без додаткових відступів */
 }
 
+.list-section-two.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Відступи між елементами списку */
+}
+
 /* Третя секція */
 .team-section {
   background-color: #f4f4fd; /* Фон секції */
