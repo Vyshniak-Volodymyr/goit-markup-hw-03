@@ -105,6 +105,7 @@ body {
 .main-section {
   background-color: #2e2f42; /* Фон секції */
   text-align: center; /* Вирівнювання тексту по центру */
+  padding: 188px 0; /* Відступи зверху та знизу */
 }
 
 .section-title {
