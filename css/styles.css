@@ -159,6 +159,7 @@ body {
 /* Визначення gap між елементами списку */
 .list-section-two {
   margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
+  flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
 }
 
 .list-section-two:last-child {
