@@ -161,7 +161,7 @@ body {
   background-color: #f4f4fd; /* Фон секції */
 }
 
-.team-title {
+.visually-hidden {
   position: absolute; /* Видаляє елемент із потоку */
   width: 1px; /* Мінімальна ширина */
   height: 1px; /* Мінімальна висота */
