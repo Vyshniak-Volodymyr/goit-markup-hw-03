@@ -1,17 +1,15 @@
-/* Домашнє завдання номер 3 */
-
 /* Загальний стиль */
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif; /* Шрифт для всього тексту */
+  color: #434455; /* Колір тексту */
+  background-color: #ffffff; /* Колір фону */
 }
 
 /* Головний стиль для хедера */
 .main-header {
-  border-bottom: 1px solid #e7e9fc;
-  background-color: #f9f9ff;
-  padding: 10px 20px;
+  border-bottom: 1px solid #e7e9fc; /* Нижня рамка */
+  background-color: #f9f9ff; /* Фон хедера */
+  padding: 10px 20px; /* Відступи всередині хедера */
 }
 
 /* Стиль для списку контактів */
@@ -28,7 +26,7 @@ body {
 
 /* Обнулення margin для останнього елемента списку */
 .contact-items li:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Для останнього елемента немає відступу справа */
 }
 
 .header-container {
@@ -58,82 +56,82 @@ body {
 
 /* Логотип: хедер і футер */
 .webstudio-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
+  font-family: "Raleway", sans-serif; /* Шрифт для посилання */
+  font-weight: 700; /* Жирність шрифту */
+  font-size: 18px; /* Розмір шрифту */
+  line-height: 1.17; /* Висота рядка */
+  letter-spacing: 0.03em; /* Відстань між літерами */
+  text-transform: uppercase; /* Перетворює текст на великі літери */
+  color: #4d5ae5; /* Колір тексту */
+  text-decoration: none; /* Вимикає підкреслення */
 }
 
 .logo-span,
 .logo-span-footer {
-  color: #2e2f42;
+  color: #2e2f42; /* Колір тексту для логотипа */
 }
 
 /* Стиль для навігаційних посилань */
 .nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
+  font-weight: 500; /* Жирність */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Колір тексту */
+  text-decoration: none; /* Вимикає підкреслення */
   padding: 24px 0; /* Встановлює вертикальні відступи по 24px для всіх посилань у меню */
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Колір при наведенні або фокусі */
 }
 
 /* Стиль для посилання в контактах */
 .contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Колір тексту */
+  text-decoration: none; /* Вимикає підкреслення */
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Колір при наведенні або фокусі */
 }
 
 /* Перша секція */
 .main-section {
-  background-color: #2e2f42;
-  text-align: center;
+  background-color: #2e2f42; /* Фон секції */
+  text-align: center; /* Вирівнювання тексту по центру */
 }
 
 .section-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  margin-bottom: 20px;
+  font-size: 56px; /* Розмір шрифту */
+  line-height: 1.07; /* Висота рядка */
+  text-align: center; /* Вирівнювання тексту по центру */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #ffffff; /* Колір тексту */
+  margin-bottom: 20px; /* Відступ знизу */
 }
 
 .action-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  transition: color 0.3s ease;
+  background-color: #4d5ae5; /* Колір фону кнопки */
+  font-family: "Roboto", sans-serif; /* Шрифт кнопки */
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.04em; /* Відстань між літерами */
+  color: #ffffff; /* Колір тексту */
+  border: none; /* Без рамки */
+  cursor: pointer; /* Вказівник на кнопці */
+  transition: color 0.3s ease; /* Плавний перехід кольору */
 }
 
 .action-button:hover,
 .action-button:focus {
-  background-color: #404bbf;
+  background-color: #404bbf; /* Колір фону при наведенні або фокусі */
 }
 
 /* Друга секція */
@@ -156,105 +154,110 @@ body {
 
 /* Третя секція */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #f4f4fd; /* Фон секції */
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
+  font-weight: 700; /* Жирність */
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 1.11; /* Висота рядка */
+  text-align: center; /* Вирівнювання по центру */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  text-transform: capitalize; /* Перші літери слів великі */
+  color: #2e2f42; /* Колір тексту */
 }
 
 .team-list {
   list-style: none; /* Видаляє крапки */
-  margin: 0;
-  display: flex;
+  margin: 0; /* Без додаткових відступів */
+  display: flex; /* Розташування елементів в ряд */
 }
 
 .menu {
-  display: flex;
+  display: flex; /* Розташування елементів меню в ряд */
   gap: 40px; /* Встановлює відступи між пунктами меню */
 }
 
 .team-item {
-  background-color: #ffffff;
-  margin-bottom: 16px;
+  background-color: #ffffff; /* Фон для елементів списку */
+  margin-bottom: 16px; /* Відступ знизу */
 }
 
 .team-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif; /* Шрифт для імені */
+  font-weight: 500; /* Жирність */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Колір тексту */
 }
 
+/* Стиль для ролі члена команди */
 .team-role {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-family: "Roboto", sans-serif; /* Шрифт для тексту */
+  font-weight: 400; /* Нормальна жирність */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Колір тексту */
 }
 
-/* Четверта секція */
-
+/* Четверта секція (портфоліо) */
 .team-section-portfolio {
-  background-color: #fdfdfd;
+  background-color: #fdfdfd; /* Фон секції */
 }
 
+/* Заголовок портфоліо */
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
+  font-weight: 700; /* Жирний шрифт */
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 1.11; /* Висота рядка */
+  text-align: center; /* Вирівнювання по центру */
+  color: #2e2f42; /* Колір тексту */
 }
 
+/* Стиль для елементів портфоліо */
 .portfolio-item {
-  margin-bottom: 16px;
+  margin-bottom: 16px; /* Відступ знизу */
 }
 
+/* Назва портфоліо */
 .portfolio-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif; /* Шрифт для імені */
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  color: #2e2f42; /* Колір тексту */
 }
 
+/* Роль у портфоліо */
 .portfolio-role {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #434455;
+  font-family: "Roboto", sans-serif; /* Шрифт для ролі */
+  font-weight: 400; /* Нормальна жирність */
+  font-size: 16px; /* Розмір шрифту */
+  color: #434455; /* Колір тексту */
 }
 
 /* Футер */
 .site-footer {
-  background-color: #2e2f42;
+  background-color: #2e2f42; /* Фон футера */
 }
 
+/* Опис у футері */
 .footer-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #f4f4fd; /* Колір тексту */
 }
 
+/* Колір тексту для логотипа в футері */
 .logo-span-footer {
-  color: #f4f4fd;
+  color: #f4f4fd; /* Колір тексту */
 }
 
 /* Зображення - блочний контейнер */
-
 .image-container {
   max-width: 600px; /* Максимальна ширина контейнера */
   padding-left: 15px; /* Відступ зліва */
@@ -263,9 +266,11 @@ body {
   margin-right: auto; /* Центрування контейнера */
 }
 
+/* Стиль для зображення */
 .block-image {
   display: block; /* Перетворює зображення на блоковий елемент */
   width: 100%; /* Зображення займатиме всю ширину контейнера */
   height: auto; /* Зберігає пропорції зображення */
   margin-bottom: 15px; /* Відступ знизу */
 }
+
