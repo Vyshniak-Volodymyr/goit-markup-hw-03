@@ -14,22 +14,24 @@ body {
   padding: 10px 20px;
 }
 
-/* Контейнер із стандартизованими розмірами 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}*/
+/* Стиль для списку контактів */
+.contact-items {
+  display: flex;         /* Розташовує елементи списку горизонтально */
+  gap: 40px;             /* Встановлює відступи між пунктами списку */
+  padding: 0;            /* Вимикає внутрішні відступи списку */
+  list-style: none;      /* Вимикає маркери списку */
+}
 
-/* Контейнер для хедера 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-}*/
+/* Альтернативний варіант з margin-right */
+.contact-items li {
+  margin-right: 40px;    /* Встановлює відступ для кожного елемента списку */
+}
 
-/* Контейнер для хедера */
+/* Обнулення margin для останнього елемента списку */
+.contact-items li:last-child {
+  margin-right: 0;
+}
+
 .header-container {
   width: 1158px; /* Встановлює фіксовану ширину */
   margin: 0 auto; /* Центрування на сторінці */
@@ -86,24 +88,6 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-}
-
-.adress-box{
-  display: flex;
-  gap: 40px
-  margin-right: 40px
-}
-
-/* Обнулення відступу для останнього елемента списку */
-.adress-box li:last-child {
-  margin-right: 0;
-}
-
-/* Стиль для address */
-.contact-address {
-  font-style: normal;
-  display: flex;
-  flex-direction: column; /* Розташовує елементи по вертикалі в адресі */
 }
 
 /* Стиль для посилання в контактах */
