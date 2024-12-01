@@ -16,15 +16,14 @@ body {
 
 /* Стиль для списку контактів */
 .contact-items {
-  display: flex;         /* Розташовує елементи списку горизонтально */
-  gap: 40px;             /* Встановлює відступи між пунктами списку */
-  padding: 0;            /* Вимикає внутрішні відступи списку */
-  list-style: none;      /* Вимикає маркери списку */
+  display: flex; /* Розташовує елементи списку горизонтально */
+  gap: 40px; /* Встановлює відступи між пунктами списку */
+  padding: 0; /* Вимикає внутрішні відступи списку */
+  list-style: none; /* Вимикає маркери списку */
 }
 
-/* Альтернативний варіант з margin-right */
 .contact-items li {
-  margin-right: 40px;    /* Встановлює відступ для кожного елемента списку */
+  margin-right: 40px; /* Встановлює відступ для кожного елемента списку */
 }
 
 /* Обнулення margin для останнього елемента списку */
@@ -98,51 +97,6 @@ body {
   color: #434455;
   text-decoration: none;
 }
-
-/* Стиль для списку контактів */
-.contact-items {
-  display: flex; /* Розташовує пункти списку горизонтально */
-  gap: 40px; /* Встановлює відступи між пунктами */
-  padding: 0; /* Вимикає внутрішні відступи списку */
-  list-style: none; /* Вимикає маркери списку */
-  }
-
-.spisok {
-  display: flex;
-}
-/* Стиль для кожного елемента списку */
-.contact-items li {
-  margin-right: 40px; /* Встановлює відступ для всіх елементів */
-}
-
-/* Обнулення відступу для останнього елемента списку */
-.contact-items li:last-child {
-  margin-right: 0;
-}
-
-
-
-/*  */
-.contact-address {
-  font-style: normal;
-  display: flex;
-}
-
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.contact-list {
-  display: flex; /* Розташовує елементи списку горизонтально */
-  gap: 40px; /* Встановлює відступи між пунктами списку */
-  padding: 0; /* Вимикає внутрішні відступи списку */
-  list-style: none; /* Вимикає маркери списку */
-}
-
 
 .contact-link:hover,
 .contact-link:focus {
@@ -286,7 +240,6 @@ body {
 /* Футер */
 .site-footer {
   background-color: #2e2f42;
-  /*  text-align: left;  */
 }
 
 .footer-description {
@@ -294,14 +247,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /* color: var(--footer-text-color, #f4f4fd); */
 }
 
 .logo-span-footer {
   color: #f4f4fd;
 }
 
-/*  Зображення - блочний контейнер  */
+/* Зображення - блочний контейнер */
 
 .image-container {
   max-width: 600px; /* Максимальна ширина контейнера */
