@@ -88,6 +88,17 @@ body {
   color: #404bbf;
 }
 
+.adress-box{
+  display: flex;
+  gap: 40px
+  margin-right: 40px
+}
+
+/* Обнулення відступу для останнього елемента списку */
+.adress-box li:last-child {
+  margin-right: 0;
+}
+
 /* Стиль для address */
 .contact-address {
   font-style: normal;
@@ -111,7 +122,7 @@ body {
   padding: 0; /* Вимикає внутрішні відступи списку */
   list-style: none; /* Вимикає маркери списку */
   }
-  
+
 .spisok {
   display: flex;
 }
