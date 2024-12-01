@@ -162,14 +162,15 @@ body {
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
-  font-weight: 700; /* Жирність */
-  font-size: 36px; /* Розмір шрифту */
-  line-height: 1.11; /* Висота рядка */
-  text-align: center; /* Вирівнювання по центру */
-  letter-spacing: 0.02em; /* Відстань між літерами */
-  text-transform: capitalize; /* Перші літери слів великі */
-  color: #2e2f42; /* Колір тексту */
+  position: absolute; /* Видаляє елемент із потоку */
+  width: 1px; /* Мінімальна ширина */
+  height: 1px; /* Мінімальна висота */
+  padding: 0; /* Відсутність внутрішніх відступів */
+  margin: -1px; /* Прибирає можливий вплив на макет */
+  overflow: hidden; /* Приховує вміст */
+  clip: rect(0, 0, 0, 0); /* Обрізає вміст */
+  white-space: nowrap; /* Запобігає переносу тексту */
+  border: 0; /* Прибирає рамку */
 }
 
 .team-list {
