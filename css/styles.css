@@ -160,7 +160,6 @@ body {
 .list-section-two {
   margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
   flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
-  margin: 0;
   padding-left: 0;
 }
 
@@ -192,8 +191,6 @@ body {
   clip: rect(0 0 0 0); /* Інший спосіб маскування вмісту, схожий на clip-path */
   overflow: hidden; /* Ховає будь-який вміст, що виходить за межі елемента */
 }
-
-
 
 .team-list {
   list-style: none; /* Видаляє крапки */
