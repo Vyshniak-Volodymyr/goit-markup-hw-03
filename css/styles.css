@@ -219,67 +219,65 @@ body {
 
 /* Section №3 - Третя секція */
 /* 2.12.2024 22-40 */
-
 /* Секція з відступами */
-. team-section-drei {
-  padding-bottom: 120px;
+.team-section-drei {
+  padding: 120px 0; /* Відступи зверху та знизу */
 }
 
-/* Заголовок секції */
-.team-heading {
+/* Заголовок */
+.team-heading-drei {
   margin-bottom: 72px; /* Відступ між заголовком та списком */
-  font-size: 36px; /* Розмір шрифту */
-  font-weight: 700; /* Жирність */
-  text-align: center; /* Центрування */
-  color: #333; /* Колір тексту */
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
 }
 
 /* Список */
 .team-list-drei {
-  display: flex; /* Горизонтальне розташування елементів */
-  gap: 24px; /* Відступи між елементами */
-  padding: 0; /* Без внутрішніх відступів */
-  margin: 0; /* Без зовнішніх відступів */
-  list-style: none; /* Видалення маркерів списку */
+  display: flex;
+  gap: 24px; /* Відступи між елементами списку */
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /* Елемент списку */
-.team-item {
-  flex-basis: calc((100% - 3 * 24px) / 4); /* Рівна ширина пунктів списку */
-  border-radius: 0 0 4px 4px; /* Заокруглення нижніх кутів */
+.team-item-drei {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 /* Контейнер в елементі списку */
-.team-content {
+.team-content-drei {
   padding: 32px 0; /* Відступи зверху та знизу */
-  text-align: center; /* Центрування контенту */
+  text-align: center;
 }
 
 /* Зображення */
-.team-image {
-  width: 100%; /* Ширина зображення */
-  height: auto; /* Автоматична висота */
-  border-radius: 4px 4px 0 0; /* Заокруглення верхніх кутів */
-  display: block; /* Відображення як блочний елемент */
+.team-image-drei {
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+  display: block;
 }
 
-/* Ім'я */
+/* Ім'я працівника */
 .team-name-drei {
-  margin-bottom: 8px; /* Відступ від імені до ролі */
-  font-size: 20px; /* Розмір шрифту */
-  font-weight: 500; /* Жирність */
-  line-height: 1.2; /* Висота рядка */
-  letter-spacing: 0.02em; /* Міжлітерний інтервал */
-  color: #2e2f42; /* Колір тексту */
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
-/* Роль */
+/* Роль працівника */
 .team-role-drei {
-  text-align: center; /* Центрування тексту */
-  font-size: 16px; /* Розмір шрифту */
-  color: #666; /* Колір тексту */
-  margin: 0; /* Без додаткових відступів */
+  font-size: 16px;
+  color: #666;
+  margin: 0;
 }
+
 /* END */
 /* Section №3 - Третя секція */
 /* 2.12.2024 22-40 */
