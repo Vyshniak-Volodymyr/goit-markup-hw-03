@@ -218,6 +218,46 @@ body {
 }
 
 /* Section №3 - Третя секція */
+/* drei */
+
+.drei-team-list {
+  display: flex; /* Використовуємо flexbox */
+  gap: 24px; /* Відстань між елементами */
+  list-style: none; /* Прибираємо стандартні маркери списку */
+  padding: 0; /* Прибираємо стандартні відступи списку */
+  margin: 0; /* Вирівнюємо список */
+}
+
+.drei-team-item {
+  margin-right: 24px; /* Встановлюємо відступ між елементами */
+}
+
+.drei-team-item:last-child {
+  margin-right: 0; /* Обнуляємо відступ для останнього елемента */
+}
+
+.drei-image-container {
+  text-align: center;
+}
+
+.drei-block-image {
+  max-width: 100%; /* Зробити зображення адаптивним */
+  height: auto;
+}
+
+.drei-team-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.drei-team-role {
+  font-size: 1em;
+  color: gray;
+}
+
+
+
+/* drei END*/
 
 .team-title {
   font-size: 36px; /* Задайте розмір шрифту заголовка */
