@@ -220,6 +220,12 @@ body {
 /* Section №3 - Третя секція */
 /* drei */
 
+.drei-list-section {
+  margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
+  flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
+  padding-left: 0;
+}
+
 .drei-section {
   padding: 120px 0; /* Відступи зверху та знизу */
 }
