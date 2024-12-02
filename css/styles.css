@@ -221,7 +221,7 @@ body {
 /* 2.12.2024 22-40 */
 
 /* Секція з відступами */
-.team-section {
+. team-section-drei{
   padding: 120px 0; /* Відступи зверху та знизу */
 }
 
@@ -235,7 +235,7 @@ body {
 }
 
 /* Список */
-.team-list {
+.team-list-drei {
   display: flex; /* Горизонтальне розташування елементів */
   gap: 24px; /* Відступи між елементами */
   padding: 0; /* Без внутрішніх відступів */
@@ -264,7 +264,7 @@ body {
 }
 
 /* Ім'я */
-.team-name {
+.team-name-drei {
   margin-bottom: 8px; /* Відступ від імені до ролі */
   font-size: 20px; /* Розмір шрифту */
   font-weight: 500; /* Жирність */
@@ -274,7 +274,7 @@ body {
 }
 
 /* Роль */
-.team-role {
+.team-role-drei {
   text-align: center; /* Центрування тексту */
   font-size: 16px; /* Розмір шрифту */
   color: #666; /* Колір тексту */
