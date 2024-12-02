@@ -220,6 +220,10 @@ body {
 /* Section №3 - Третя секція */
 /* drei */
 
+.drei-section {
+  padding-bottom: 120px;
+}
+
 .drei-team-list {
   display: flex; /* Використовуємо flexbox */
   gap: 24px; /* Відстань між елементами */
