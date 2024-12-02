@@ -135,8 +135,7 @@ body {
 
 /* Section №2 */
 .two-section {
-  padding-bottom: 120px
-  /*padding: 120px 0;  Відступи зверху та знизу */
+  padding: 120px 0; /* Відступи зверху та знизу */
 }
 
 /* Друга секція */
@@ -222,8 +221,8 @@ body {
 /* 2.12.2024 22-40 */
 
 /* Секція з відступами */
-. team-section-drei{
-  padding: 120px 0; /* Відступи зверху та знизу */
+. team-section-drei {
+  padding-bottom: 120px;
 }
 
 /* Заголовок секції */
@@ -284,7 +283,6 @@ body {
 /* END */
 /* Section №3 - Третя секція */
 /* 2.12.2024 22-40 */
-
 
 .team-title {
   font-size: 36px; /* Задайте розмір шрифту заголовка */
