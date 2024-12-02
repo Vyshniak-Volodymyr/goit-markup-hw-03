@@ -220,12 +220,14 @@ body {
 /* Section №3 - Третя секція */
 /* 2.12.2024 22-40 */
 /* Секція з відступами */
-.team-section-drei {
+
+/* Секція */
+.team-section {
   padding: 120px 0; /* Відступи зверху та знизу */
 }
 
 /* Заголовок */
-.team-heading-drei {
+.team-heading {
   margin-bottom: 72px; /* Відступ між заголовком та списком */
   font-size: 36px;
   font-weight: 700;
@@ -234,7 +236,7 @@ body {
 }
 
 /* Список */
-.team-list-drei {
+.team-list {
   display: flex;
   gap: 24px; /* Відступи між елементами списку */
   padding: 0;
@@ -243,39 +245,41 @@ body {
 }
 
 /* Елемент списку */
-.team-item-drei {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
+.team-item {
+  flex-basis: calc((100% - 3 * 24px) / 4); /* Розмір елементу списку */
+  border-radius: 0 0 4px 4px; /* Заокруглення внизу */
 }
 
 /* Контейнер в елементі списку */
-.team-content-drei {
+.team-content {
   padding: 32px 0; /* Відступи зверху та знизу */
-  text-align: center;
+  text-align: center; /* Вирівнювання по центру */
 }
 
 /* Зображення */
-.team-image-drei {
+.team-image {
   width: 100%;
   height: auto;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0; /* Заокруглення зверху */
   display: block;
 }
 
 /* Ім'я працівника */
-.team-name-drei {
-  margin-bottom: 8px;
+.team-name {
+  margin-bottom: 8px; /* Відступ між іменем та посадою */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
+  text-align: center; /* Вирівнювання по центру */
 }
 
 /* Роль працівника */
-.team-role-drei {
+.team-role {
   font-size: 16px;
   color: #666;
   margin: 0;
+  text-align: center; /* Вирівнювання по центру */
 }
 
 /* END */
