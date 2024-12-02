@@ -231,6 +231,10 @@ body {
   padding: 0 15px; /* Внутрішні відступи з обох боків */
 }
 
+.drei-team-title {
+  margin-bottom: 72px;
+}
+
 .drei-team-list {
   display: flex; /* Використовуємо flexbox */
   gap: 24px; /* Відстань між елементами */
