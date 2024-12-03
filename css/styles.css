@@ -223,6 +223,7 @@ body {
 /* Контейнер для імені та посади */
 .team-info {
   padding: 32px 0; /* Аналог: padding-top: 32px; padding-bottom: 32px; */
+  padding-bottom: 32px;
 }
 
 .drei-list-section:first-child .drei-image-container {
