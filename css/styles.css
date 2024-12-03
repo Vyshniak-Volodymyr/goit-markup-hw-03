@@ -242,13 +242,6 @@ body {
   margin-bottom: 72px;
 }
 
-.drei-team-list {
-  padding-left: 0; /* Обнуляє дефолтний лівий паддінг */
-  list-style: none; /* Видаляє крапки */
-  margin: 0; /* Без додаткових відступів */
-  display: flex; /* Розташування елементів в ряд */
-}
-
 .drei-team-item {
   margin-right: 24px; /* Встановлюємо відступ між елементами */
 }
