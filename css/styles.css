@@ -273,15 +273,14 @@ body {
 }
 
 .drei-team-name {
-  font-size: 1.2em;
-  font-weight: bold;
+  text-align: center; /* Вирівнює текст по центру горизонтально */
+  margin-bottom: 8px; /* Додає відступ у 8 пікселів знизу для розділення з наступним елементом */
 }
 
 .drei-team-role {
   font-size: 1em;
   color: gray;
   text-align: center;
-  
 }
 
 /* drei END*/
