@@ -223,6 +223,7 @@ body {
 .drei-list-section {
   margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
   /*flex-basis: calc((100% - 72px) / 4);  Ширина елементів списку */
+  width: calc((100% - 72px) / 4)
   flex-basis: calc((100% - 3 * 24px) / 4)
   padding-left: 0;
 }
