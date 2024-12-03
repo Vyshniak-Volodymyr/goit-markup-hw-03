@@ -222,11 +222,10 @@ body {
 
 .drei-list-section {
   margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
-  /*flex-basis: calc((100% - 72px) / 4);  Ширина елементів списку */
-  width: calc((100% - 72px) / 4)
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
   padding-left: 0;
 }
+
 
 .drei-section {
   padding: 120px 0; /* Відступи зверху та знизу */
@@ -244,12 +243,10 @@ body {
 }
 
 .drei-team-list {
-  display: flex; /* Використовуємо flexbox */
-  gap: 24px; /* Відстань між елементами */
-  list-style: none; /* Прибираємо стандартні маркери списку */
-  padding: 0; /* Прибираємо стандартні відступи списку */
-  margin: 0; /* Вирівнюємо список */
-  padding-left: 0;
+  padding-left: 0; /* Обнуляє дефолтний лівий паддінг */
+  list-style: none; /* Видаляє крапки */
+  margin: 0; /* Без додаткових відступів */
+  display: flex; /* Розташування елементів в ряд */
 }
 
 .drei-team-item {
