@@ -220,6 +220,11 @@ body {
 /* Section №3 - Третя секція */
 /* drei */
 
+/* Контейнер для імені та посади */
+.team-info {
+  padding: 32px 0; /* Аналог: padding-top: 32px; padding-bottom: 32px; */
+}
+
 .drei-list-section:first-child .drei-image-container {
   border-top-left-radius: 0px; /* Верхній лівий */
   border-top-right-radius: 0px; /* Верхній правий */
