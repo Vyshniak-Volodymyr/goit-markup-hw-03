@@ -226,37 +226,6 @@ body {
   margin-right: 0; /* Відсутність відступу для кожного третього елементу */
 }
 
-.team-item:last-child,
-.team-item:nth-last-child(2),
-.team-item:nth-last-child(3) {
-margin-bottom: 0; /* Обнулення відступів для останніх елементів */
-
-/* Контейнер у пункті списку */
-.image-container {
-  padding: 32px 16px; /* Відступи від країв контейнера */
-}
-
-/* Заголовок додатку */
-.team-name {
-  font-family: "Roboto", sans-serif; /* Шрифт заголовка */
-  font-weight: 500; /* Жирність */
-  font-size: 20px; /* Розмір шрифту */
-  line-height: 1.2; /* Висота рядка */
-  letter-spacing: 0.02em; /* Відстань між літерами */
-  color: #2e2f42; /* Колір тексту */
-  margin-bottom: 8px; /* Відступ між заголовком і текстом */
-}
-
-/* Опис ролі додатку */
-.team-role {
-  font-family: "Roboto", sans-serif; /* Шрифт опису */
-  font-weight: 400; /* Нормальна жирність */
-  font-size: 16px; /* Розмір шрифту */
-  line-height: 1.5; /* Висота рядка */
-  letter-spacing: 0.02em; /* Відстань між літерами */
-  color: #434455; /* Колір тексту */
-}
-
 /* Section №3 - Третя секція */
 /* drei */
 
