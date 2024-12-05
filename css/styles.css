@@ -380,6 +380,18 @@ body {
 
 /* Четверта секція */
 
+.container-vier
+{
+  width: 1158px; /* Встановлює фіксовану ширину для контенту */
+  margin: 0 auto; /* Центрування контейнера на сторінці */
+  padding: 0 15px; /* Внутрішні відступи з обох боків */
+  row-gap: 48px
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+
+}
+
 .team-title-vier
 {
   font-size: 36px; /* Задайте розмір шрифту заголовка */
