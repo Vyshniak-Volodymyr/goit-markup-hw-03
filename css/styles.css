@@ -378,21 +378,4 @@ body {
   margin-bottom: 15px; /* Відступ знизу */
 }
 
-/* Секція 2 */
-.two-section .team-list {
-  display: flex;
-  flex-wrap: wrap; /* Дозволяє переносити елементи при недостатньому місці */
-  gap: 24px; /* Відступи між елементами */
-  justify-content: space-between; /* Розподіл елементів */
-}
-
-/* Секція 4 */
-.team-section-portfolio .team-list {
-  display: flex;
-  flex-wrap: wrap; /* Адаптивність для мобільних пристроїв */
-  gap: 24px; /* Відступи між картками */
-  justify-content: space-between; /* Рівномірний розподіл у ряд */
-}
-
-
 /* Четверта секція */
