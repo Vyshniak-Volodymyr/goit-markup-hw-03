@@ -388,4 +388,7 @@ body {
   margin-bottom: 72px; /* Відступ між заголовком і наступним елементом */
   color: #333; /* Колір тексту */
   row-gap: 48px
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
