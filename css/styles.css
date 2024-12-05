@@ -308,6 +308,8 @@ body {
 /* Четверта секція (портфоліо) */
 .team-section-portfolio {
   background-color: #fdfdfd; /* Фон секції */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* Заголовок портфоліо */
