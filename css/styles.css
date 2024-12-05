@@ -206,8 +206,11 @@ body {
 }
 
 .team-item {
-  background-color: #ffffff; /* Фон для елементів списку */
-  margin-bottom: 16px; /* Відступ знизу */
+  width: calc((100% - 48px) / 3); /* Ширина з урахуванням відступів */
+  margin-bottom: 48px; /* Відступ знизу */
+  background-color: #ffffff; /* Фон елементу */
+  border: 1px solid #e7e9fc; /* Обводка елементу */
+  border-top: none; /* Скидання верхньої обводки */
 }
 
 .team-name {
@@ -217,6 +220,41 @@ body {
   line-height: 1.2; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #2e2f42; /* Колір тексту */
+}
+
+.team-item:nth-child(3n) {
+  margin-right: 0; /* Відсутність відступу для кожного третього елементу */
+}
+
+.team-item:last-child,
+.team-item:nth-last-child(2),
+.team-item:nth-last-child(3) {
+margin-bottom: 0; /* Обнулення відступів для останніх елементів */
+
+/* Контейнер у пункті списку */
+.image-container {
+  padding: 32px 16px; /* Відступи від країв контейнера */
+}
+
+/* Заголовок додатку */
+.team-name {
+  font-family: "Roboto", sans-serif; /* Шрифт заголовка */
+  font-weight: 500; /* Жирність */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #2e2f42; /* Колір тексту */
+  margin-bottom: 8px; /* Відступ між заголовком і текстом */
+}
+
+/* Опис ролі додатку */
+.team-role {
+  font-family: "Roboto", sans-serif; /* Шрифт опису */
+  font-weight: 400; /* Нормальна жирність */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Висота рядка */
+  letter-spacing: 0.02em; /* Відстань між літерами */
+  color: #434455; /* Колір тексту */
 }
 
 /* Section №3 - Третя секція */
@@ -394,9 +432,20 @@ body {
 
 .team-title-vier
 {
-  font-size: 36px; /* Задайте розмір шрифту заголовка */
-  font-weight: bold; /* Зробіть текст жирним (опціонально) */
-  text-align: center; /* Вирівнювання тексту (опціонально) */
-  margin-bottom: 72px; /* Відступ між заголовком і наступним елементом */
+  font-size: 36px; /* Розмір шрифту заголовка */
+  font-weight: bold; /* Жирний текст */
+  text-align: center; /* Вирівнювання тексту */
+  margin-bottom: 72px; /* Відступ між заголовком і списком */
   color: #333; /* Колір тексту */
+}
+
+/* Список елементів */
+ul.team-title-vier {
+  display: flex; /* Використання Flexbox */
+  flex-wrap: wrap; /* Перенос елементів */
+  column-gap: 24px; /* Горизонтальні відступи між елементами */
+  row-gap: 48px; /* Вертикальні відступи між рядками */
+  padding: 0; /* Скидання відступів списку */
+  margin: 0; /* Скидання полів списку */
+  list-style: none; /* Видалення маркерів списку */
 }
