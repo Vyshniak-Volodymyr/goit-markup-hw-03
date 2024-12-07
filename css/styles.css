@@ -64,6 +64,8 @@ body {
   text-transform: uppercase; /* Перетворює текст на великі літери */
   color: #4d5ae5; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span,
@@ -355,7 +357,7 @@ body {
 .site-footer {
   background-color: #2e2f42; /* Фон футера */
   padding: 100px 0;
-  
+
 }
 
 /* Опис у футері */
