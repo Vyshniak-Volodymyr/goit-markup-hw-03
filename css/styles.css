@@ -8,16 +8,16 @@ body {
 /* Головний стиль для хедера */
 .main-header {
   border-bottom: 1px solid #e7e9fc; /* Нижня рамка */
-  background-color: #f9f9ff; /* Фон хедера */
-  padding: 10px 20px; /* Відступи всередині хедера */
-}
+    }
 
 /* Стиль для списку контактів */
 .contact-items {
   display: flex; /* Розташовує елементи списку горизонтально */
   gap: 40px; /* Встановлює відступи між пунктами списку */
   padding: 0; /* Вимикає внутрішні відступи списку */
+  margin: 0; /* Скидає зовнішні відступи списку */
   list-style: none; /* Вимикає маркери списку */
+  font-style: normal; /* Встановлює нормальний стиль шрифта */
 }
 
 .contact-items li {
@@ -65,8 +65,7 @@ body {
   color: #4d5ae5; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
   display: inline-block;
-  margin-bottom: 16px;
-}
+ }
 
 .logo-span,
 .logo-span-footer {
@@ -82,6 +81,7 @@ body {
   color: #2e2f42; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
   padding: 24px 0; /* Встановлює вертикальні відступи по 24px для всіх посилань у меню */
+  display: block;
 }
 
 .nav-link:hover,
@@ -108,27 +108,52 @@ body {
   background-color: #2e2f42; /* Фон секції */
   text-align: center; /* Вирівнювання тексту по центру */
   padding: 188px 0; /* Відступи зверху та знизу */
+  display: flex; /* Використовуємо flexbox для вирівнювання вмісту */
+  flex-direction: column; /* Розташовуємо елементи вертикально */
+  align-items: center; /* Центруємо елементи по горизонталі */
+  justify-content: center; /* Центруємо елементи по вертикалі */
 }
 
 .section-title {
   font-size: 56px; /* Розмір шрифту */
+  font-weight: 700; /* Жирність шрифту */
   max-width: 496px; /* Визначення ширини тексту */
-  line-height: 1.07; /* Висота рядка */
-  text-align: center; /* Вирівнювання тексту по центру */
+  line-height: 1.2; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #ffffff; /* Колір тексту */
-  margin-bottom: 20px; /* Відступ знизу */
+  margin: 0 auto 20px; /* Центрування та відступ знизу */
+  text-align: center; /* Вирівнювання тексту по центру */
 }
 
 .action-button {
-  display: block; /* Для можливості центрування через margin */
-  min-width: 169px; /* Мінімальна ширина кнопки */
-  height: 56px; /* Висота кнопки */
-  border: none; /* Вимкнення стандартного оформлення */
+  display: block; /* Встановлює блочний режим для можливості центрування через margin */
+  min-width: 105px; /* Мінімальна ширина кнопки */
+  height: 56px; /* Загальна висота кнопки, залишаємо незмінною для зручності */
+  border: none; /* Видаляє стандартну рамку кнопки */
+  padding: 16px 24px; /* Відступи всередині кнопки для вирівнювання тексту */
   background-color: var(--primary-color, #4d5ae5); /* Фон кнопки */
-  border-radius: 4px; /* Заокруглення */
-  cursor: pointer; /* Тип курсору */
+  border-radius: 4px; /* Заокруглення країв кнопки */
+  cursor: pointer; /* Змінює курсор на "вказівник руки" при наведенні */
+  margin: 0 auto; /* Центрування кнопки автоматичним марженом */
+
+  /* Стилі тексту */
+  font-family: 'Roboto', sans-serif; /* Шрифт */
+  font-size: 16px; /* Розмір шрифту */
+  font-weight: 500; /* Напівжирний текст */
+  line-height: 24px; /* Висота рядка */
+  letter-spacing: 0.04em; /* Відстань між літерами */
+  text-align: left; /* Вирівнювання тексту по лівому краю */
+  color: #ffffff; /* Колір тексту */
+  text-decoration: none; /* Видаляє підкреслення */
+  text-underline-position: from-font; /* Позиція підкреслення */
+  text-decoration-skip-ink: none; /* Зберігає вигляд підкреслення навколо символів */
+  transition: background-color 0.3s; /* Анімація для зміни кольору */
 }
+
+.action-button:hover {
+  background-color: #3a46c0; /* Зміна фону кнопки при наведенні */
+}
+
 
 .action-button:hover,
 .action-button:focus {
