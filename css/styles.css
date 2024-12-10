@@ -67,6 +67,7 @@ body {
   display: inline-block;
  }
 
+
 .logo-span,
 .logo-span-footer {
   color: #2e2f42; /* Колір тексту для логотипа */
@@ -185,7 +186,6 @@ body {
 
 /* Визначення gap між елементами списку */
 .list-section-two {
-  margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
   flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
   padding-left: 0;
 }
@@ -234,21 +234,20 @@ body {
 
 .team-item {
   width: calc((100% - 48px) / 3); /* Ширина з урахуванням відступів */
-  margin-bottom: 48px; /* Відступ знизу */
-  background-color: #ffffff; /* Фон елементу */
-  border: 1px solid #e7e9fc; /* Обводка елементу */
-  border-top: none; /* Скидання верхньої обводки */
 }
 
 .team-name {
+  margin: 0; /* Обнуляє всі відступи */
+  padding: 0; /* Обнуляє всі внутрішні відступи */
   font-family: "Roboto", sans-serif; /* Шрифт для імені */
   font-weight: 500; /* Жирність */
   font-size: 20px; /* Розмір шрифту */
   line-height: 1.2; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #2e2f42; /* Колір тексту */
-  margin-bottom: 8px;
+  margin-bottom: 8px; /* Нижній відступ */
 }
+
 
 .team-item:nth-child(3n) {
   margin-right: 0; /* Відсутність відступу для кожного третього елементу */
@@ -271,14 +270,16 @@ body {
 }
 
 .drei-list-section {
-  margin-right: 24px; /* Відступ для всіх елементів, крім останнього */
   flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
-  padding-left: 0;
-  border-radius: 0px 0px 4px 4px;
+  padding-left: 0; /* Відступ зліва */
+  border-radius: 0px 0px 4px 4px; /* Закруглення нижніх кутів */
+  background-color: #FFFFFF; /* Білий фон */
 }
+
 
 .drei-section {
   padding: 120px 0; /* Відступи зверху та знизу */
+  background: #F4F4FD; /* Колір фону */
 }
 
 /* Дефолтний клас container для стандартизації розмірів */
@@ -289,8 +290,18 @@ body {
 }
 
 .drei-team-title {
-  margin-bottom: 72px;
+  margin-top: 0; /* Верхній відступ обнулений */
+  margin-bottom: 72px; /* Нижній відступ 72px */
+  font-family: 'Roboto', sans-serif; /* Шрифт Roboto, запасний sans-serif */
+  font-size: 36px; /* Розмір шрифту 36px */
+  font-weight: 700; /* Жирність шрифту (700 — напівжирний) */
+  line-height: 40px; /* Висота рядка 40px для гармонійного розташування тексту */
+  letter-spacing: 0.02em; /* Міжлітерний інтервал (трішки розширений) */
+  text-align: center; /* Текст вирівняно по центру */
+  text-underline-position: from-font; /* Позиція підкреслення відповідно до шрифту */
+  text-decoration-skip-ink: none; /* Підкреслення не пропускає символи (наприклад, літери з нижніми елементами) */
 }
+
 
 .drei-team-item {
   margin-right: 24px; /* Встановлюємо відступ між елементами */
@@ -312,13 +323,17 @@ body {
 .drei-team-name {
   text-align: center; /* Вирівнює текст по центру горизонтально */
   margin-bottom: 8px; /* Додає відступ у 8 пікселів знизу для розділення з наступним елементом */
+  margin-top: 0; /* Видаляє зайвий верхній відступ */
 }
 
 .drei-team-role {
-  font-size: 1em;
-  color: gray;
-  text-align: center;
+  font-size: 1em; /* Розмір шрифту */
+  color: gray; /* Сірий колір тексту */
+  text-align: center; /* Вирівнює текст по центру */
+  margin-top: 0; /* Видаляє верхній відступ */
+  margin-bottom: 0; /* Видаляє нижній відступ */
 }
+
 
 /* drei END*/
 
@@ -332,6 +347,8 @@ body {
 
 /* Стиль для ролі члена команди */
 .team-role {
+  margin: 0; /* Обнуляє всі зовнішні відступи */
+  padding: 0; /* Обнуляє всі внутрішні відступи */
   font-family: "Roboto", sans-serif; /* Шрифт для тексту */
   font-weight: 400; /* Нормальна жирність */
   font-size: 16px; /* Розмір шрифту */
@@ -387,6 +404,9 @@ body {
 
 /* Опис у футері */
 .footer-description {
+  margin-top: 0; /* Обнуляє верхній марж */
+  margin-bottom: 0; /* Обнуляє нижній марж */
+  width: 264px; /* Ширина по макету */
   font-size: 16px; /* Розмір шрифту */
   line-height: 1.5; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
@@ -412,8 +432,7 @@ body {
   display: block; /* Перетворює зображення на блоковий елемент */
   width: 100%; /* Зображення займатиме всю ширину контейнера */
   height: auto; /* Зберігає пропорції зображення */
-  margin-bottom: 15px; /* Відступ знизу */
-}
+  }
 
 /* Четверта секція */
 
@@ -429,13 +448,37 @@ body {
 
 }
 
-.team-title-vier
-{
+.team-title-vier {
+  font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
   font-size: 36px; /* Розмір шрифту заголовка */
-  font-weight: bold; /* Жирний текст */
-  text-align: center; /* Вирівнювання тексту */
+  font-weight: 700; /* Жирний текст (700 — найвища жирність) */
+  line-height: 40px; /* Висота рядка */
+  letter-spacing: 0.02em; /* Міжлітерний інтервал */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-underline-position: from-font; /* Позиція підкреслення */
+  text-decoration-skip-ink: none; /* Не пропускати підкреслення через символи */
+  margin-top: 0; /* Видаляє верхній відступ */
   margin-bottom: 72px; /* Відступ між заголовком і списком */
   color: #333; /* Колір тексту */
+}
+
+
+.fourth-list {
+  all: unset; /* Скидає всі стилі до базових значень */
+  display: flex; /* Встановлює Flexbox для вирівнювання елементів */
+  flex-wrap: wrap; /* Дозволяє елементам переноситися на новий рядок */
+  justify-content: space-between; /* Розподіляє елементи з рівними відступами */
+  margin-top: 0; /* Видаляє верхній відступ */
+  margin-bottom: 72px; /* Відступ між заголовком і списком */
+  color: #333; /* Колір тексту */
+  padding: 0; /* Обнулює внутрішні відступи */
+  list-style-type: none; /* Видаляє маркери списку */
+}
+
+.fourth-list li {
+  flex-basis: calc(33.33% - 20px); /* Ширина елементів, по 3 в ряд з відступами */
+  margin-bottom: 20px; /* Відступ між елементами в колонці */
+  box-sizing: border-box; /* Ураховує відступи в загальній ширині елемента */
 }
 
 /* Список елементів */
@@ -451,9 +494,10 @@ ul.team-title-vier {
 
 /* 7.12.2024 */
 
-.addition
-{
+.addition {
   padding: 32px 16px; /* Відступи від країв контейнера */
   border: 1px solid #e7e9fc; /* Стиль обводки по периметру */
   border-top: none; /* Скидання обводки для верхнього краю */
+  text-align: left; /* Вирівнювання тексту по лівому краю */
 }
+
