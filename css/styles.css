@@ -138,6 +138,8 @@ body {
   cursor: pointer; /* Змінює курсор на "вказівник руки" при наведенні */
   margin: 0 auto; /* Центрування кнопки автоматичним марженом */
 
+  min-width: 169px;
+
   /* Стилі тексту */
   font-family: 'Roboto', sans-serif; /* Шрифт */
   font-size: 16px; /* Розмір шрифту */
@@ -446,8 +448,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-wrap: wrap;
-
 }
+
 
 .team-title-vier {
   font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
