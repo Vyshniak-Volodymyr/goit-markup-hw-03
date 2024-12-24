@@ -242,8 +242,7 @@ body {
 /* Елементи списку */
 .team-item {
   width: calc((100% - 48px) / 3); /* Встановлюємо ширину з урахуванням відступів */
-  padding-left: 0; /* Відступ зліва */
-}
+  }
 
 .team-name {
   margin: 0; /* Обнуляє всі відступи */
@@ -255,11 +254,6 @@ body {
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #2e2f42; /* Колір тексту */
   margin-bottom: 8px; /* Нижній відступ */
-}
-
-
-.team-item:nth-child(3n) {
-  margin-right: 0;  /* Відсутність відступу для кожного третього елементу */
 }
 
 /* Section №3 - Третя секція */
@@ -330,15 +324,30 @@ body {
 }
 
 .drei-team-name {
-  text-align: center; /* Вирівнює текст по центру горизонтально */
-  margin-bottom: 8px; /* Додає відступ у 8 пікселів знизу для розділення з наступним елементом */
-  margin-top: 0; /* Видаляє зайвий верхній відступ */
+  /* Стиль заголовка H3 */
+  font-family: Roboto; /* Шрифт Roboto */
+  font-size: 20px; /* Розмір шрифту 20px */
+  font-weight: 500; /* Напівжирний шрифт */
+  line-height: 24px; /* Висота рядка 24px */
+  letter-spacing: 0.02em; /* Міжлітерний інтервал 0.02em */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-underline-position: from-font; /* Позиція підкреслення залежить від шрифту */
+  text-decoration-skip-ink: none; /* Підкреслення не пропускає чорнило */
+  margin-bottom: 8px; /* Нижній відступ 8px */
+  margin-top: 0; /* Верхній відступ 0 */
 }
 
 .drei-team-role {
-  font-size: 1em; /* Розмір шрифту */
+  /* Стиль тексту Body */
+  font-family: Roboto; /* Шрифт Roboto */
+  font-size: 16px; /* Розмір шрифту 16px */
+  font-weight: 400; /* Нормальна товщина шрифту */
+  line-height: 24px; /* Висота рядка 24px */
+  letter-spacing: 0.02em; /* Міжлітерний інтервал 0.02em */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-underline-position: from-font; /* Позиція підкреслення залежить від шрифту */
+  text-decoration-skip-ink: none; /* Підкреслення не пропускає чорнило */
   color: gray; /* Сірий колір тексту */
-  text-align: center; /* Вирівнює текст по центру */
   margin-top: 0; /* Видаляє верхній відступ */
   margin-bottom: 0; /* Видаляє нижній відступ */
 }
@@ -473,14 +482,11 @@ body {
 
 
 .fourth-list {
-  all: unset; /* Скидає всі стилі до базових значень */
   display: flex; /* Встановлює Flexbox для вирівнювання елементів */
   flex-wrap: wrap; /* Дозволяє елементам переноситися на новий рядок */
-  justify-content: space-between; /* Розподіляє елементи з рівними відступами */
   margin-top: 0; /* Видаляє верхній відступ */
   margin: 0; /* Забираємо зовнішні відступи */
   margin-bottom: 72px; /* Відступ між заголовком і списком */
-  color: #333; /* Колір тексту */
   padding: 0; /* Обнулює внутрішні відступи */
   list-style-type: none; /* Видаляє маркери списку */
   column-gap: 24px;
