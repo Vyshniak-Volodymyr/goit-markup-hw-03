@@ -65,8 +65,8 @@ body {
   color: #4d5ae5; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
   display: inline-block;
- }
-
+  margin-bottom: 16px; /* Відступ до нижнього елементу */
+}
 
 .logo-span,
 .logo-span-footer {
@@ -425,9 +425,14 @@ body {
   margin-top: 0; /* Обнуляє верхній марж */
   margin-bottom: 0; /* Обнуляє нижній марж */
   width: 264px; /* Ширина по макету */
+  font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
   font-size: 16px; /* Розмір шрифту */
-  line-height: 1.5; /* Висота рядка */
+  font-weight: 400; /* Товщина шрифту */
+  line-height: 24px; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
+  text-align: left; /* Вирівнювання тексту по лівому краю */
+  text-underline-position: from-font; /* Позиція підкреслення від шрифта */
+  text-decoration-skip-ink: none; /* Пропуск чорнила для підкреслення */
   color: #f4f4fd; /* Колір тексту */
 }
 
