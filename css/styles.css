@@ -94,7 +94,6 @@ body {
 .contact-link {
   font-size: 16px; /* Розмір шрифту */
   line-height: 1.5; /* Висота рядка */
-  letter-spacing: 0.02em; /* Відстань між літерами */
   color: #434455; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
 }
@@ -113,6 +112,11 @@ body {
   flex-direction: column; /* Розташовуємо елементи вертикально */
   align-items: center; /* Центруємо елементи по горизонталі */
   justify-content: center; /* Центруємо елементи по вертикалі */
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .section-title {
@@ -122,8 +126,9 @@ body {
   line-height: 1.2; /* Висота рядка */
   letter-spacing: 0.02em; /* Відстань між літерами */
   color: #ffffff; /* Колір тексту */
-  margin: 0 auto 20px; /* Центрування та відступ знизу */
+  margin: 0 auto 48px; /* Центрування та відступ знизу */
   text-align: center; /* Вирівнювання тексту по центру */
+  gap: 0px; /* Відстань між дочірніми елементами (для flex/grid контейнерів) */
 }
 
 .action-button {
