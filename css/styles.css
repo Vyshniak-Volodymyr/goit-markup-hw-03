@@ -8,7 +8,7 @@ body {
 /* Головний стиль для хедера */
 .main-header {
   border-bottom: 1px solid #e7e9fc; /* Нижня рамка */
-    }
+}
 
 /* Стиль для списку контактів */
 .contact-items {
@@ -157,7 +157,7 @@ body {
   min-width: 169px;
 
   /* Стилі тексту */
-  font-family: 'Roboto', sans-serif; /* Шрифт */
+  font-family: "Roboto", sans-serif; /* Шрифт */
   font-size: 16px; /* Розмір шрифту */
   font-weight: 500; /* Напівжирний текст */
   line-height: 24px; /* Висота рядка */
@@ -173,7 +173,6 @@ body {
 .action-button:hover {
   background-color: #3a46c0; /* Зміна фону кнопки при наведенні */
 }
-
 
 .action-button:hover,
 .action-button:focus {
@@ -253,8 +252,10 @@ body {
 
 /* Елементи списку */
 .team-item {
-  width: calc((100% - 48px) / 3); /* Встановлюємо ширину з урахуванням відступів */
-  }
+  width: calc(
+    (100% - 48px) / 3
+  ); /* Встановлюємо ширину з урахуванням відступів */
+}
 
 .team-name {
   margin: 0; /* Обнуляє всі відступи */
@@ -288,13 +289,12 @@ body {
   flex-basis: calc((100% - 72px) / 4); /* Ширина елементів списку */
   padding-left: 0; /* Відступ зліва */
   border-radius: 0px 0px 4px 4px; /* Закруглення нижніх кутів */
-  background-color: #FFFFFF; /* Білий фон */
+  background-color: #ffffff; /* Білий фон */
 }
-
 
 .drei-section {
   padding: 120px 0; /* Відступи зверху та знизу */
-  background: #F4F4FD; /* Колір фону */
+  background: #f4f4fd; /* Колір фону */
 }
 
 /* Дефолтний клас container для стандартизації розмірів */
@@ -307,7 +307,7 @@ body {
 .drei-team-title {
   margin-top: 0; /* Верхній відступ обнулений */
   margin-bottom: 72px; /* Нижній відступ 72px */
-  font-family: 'Roboto', sans-serif; /* Шрифт Roboto, запасний sans-serif */
+  font-family: "Roboto", sans-serif; /* Шрифт Roboto, запасний sans-serif */
   font-size: 36px; /* Розмір шрифту 36px */
   font-weight: 700; /* Жирність шрифту (700 — напівжирний) */
   line-height: 40px; /* Висота рядка 40px для гармонійного розташування тексту */
@@ -316,7 +316,6 @@ body {
   text-underline-position: from-font; /* Позиція підкреслення відповідно до шрифту */
   text-decoration-skip-ink: none; /* Підкреслення не пропускає символи (наприклад, літери з нижніми елементами) */
 }
-
 
 .drei-team-item {
   margin-right: 24px; /* Встановлюємо відступ між елементами */
@@ -363,7 +362,6 @@ body {
   margin-top: 0; /* Видаляє верхній відступ */
   margin-bottom: 0; /* Видаляє нижній відступ */
 }
-
 
 /* drei END*/
 
@@ -429,7 +427,6 @@ body {
 .site-footer {
   background-color: #2e2f42; /* Фон футера */
   padding: 100px 0;
-
 }
 
 /* Опис у футері */
@@ -437,7 +434,7 @@ body {
   margin-top: 0; /* Обнуляє верхній марж */
   margin-bottom: 0; /* Обнуляє нижній марж */
   width: 264px; /* Ширина по макету */
-  font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
+  font-family: "Roboto", sans-serif; /* Шрифт Roboto */
   font-size: 16px; /* Розмір шрифту */
   font-weight: 400; /* Товщина шрифту */
   line-height: 24px; /* Висота рядка */
@@ -449,11 +446,10 @@ body {
 }
 
 /* Колір тексту для логотипа в футері */
-.logo-span-footer {  
+.logo-span-footer {
   color: #f4f4fd; /* Колір тексту елемента з класом .logo-span-footer (світлий відтінок білого) */
   margin-bottom: 16px; /* Відступ знизу між цим елементом і наступним (наприклад, параграфом) */
 }
-
 
 /* Зображення - блочний контейнер */
 .image-container {
@@ -469,24 +465,21 @@ body {
   display: block; /* Перетворює зображення на блоковий елемент */
   width: 100%; /* Зображення займатиме всю ширину контейнера */
   height: auto; /* Зберігає пропорції зображення */
-  }
+}
 
 /* Четверта секція */
 
-.container-vier
-{
-  width: 1158px; /* Встановлює фіксовану ширину для контенту */
-  margin: 0 auto; /* Центрування контейнера на сторінці */
-  padding: 0 15px; /* Внутрішні відступи з обох боків */
-  row-gap: 48px
-  display: flex;
-  flex-wrap: wrap;
-  flex-wrap: wrap;
+.container-vier {
+  width: 1158px; /* Встановлює фіксовану ширину для контейнера */
+  margin: 0 auto; /* Центрує контейнер по горизонталі на сторінці */
+  padding: 0 15px; /* Встановлює внутрішні відступи по 15px зліва та справа */
+  row-gap: 48px; /* Встановлює вертикальний проміжок між рядками у flex-контейнері */
+  display: flex; /* Застосовує flexbox для розташування елементів всередині */
+  flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок, якщо вони не вміщаються */
 }
 
-
 .team-title-vier {
-  font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
+  font-family: "Roboto", sans-serif; /* Шрифт Roboto */
   font-size: 36px; /* Розмір шрифту заголовка */
   font-weight: 700; /* Жирний текст (700 — найвища жирність) */
   line-height: 40px; /* Висота рядка */
@@ -498,7 +491,6 @@ body {
   margin-bottom: 72px; /* Відступ між заголовком і списком */
   color: #333; /* Колір тексту */
 }
-
 
 .fourth-list {
   display: flex; /* Встановлює Flexbox для вирівнювання елементів */
@@ -523,12 +515,9 @@ ul.team-title-vier {
   list-style: none; /* Видалення маркерів списку */
 }
 
-/* 7.12.2024 */
-
 .addition {
   padding: 32px 16px; /* Відступи від країв контейнера */
   border: 1px solid #e7e9fc; /* Стиль обводки по периметру */
   border-top: none; /* Скидання обводки для верхнього краю */
   text-align: left; /* Вирівнювання тексту по лівому краю */
 }
-
