@@ -67,6 +67,19 @@ body {
   display: inline-block;
   }
 
+  .webstudio-link-footer {
+    font-family: "Raleway", sans-serif; /* Шрифт для посилання */
+    font-weight: 700; /* Жирність шрифту */
+    font-size: 18px; /* Розмір шрифту */
+    line-height: 1.17; /* Висота рядка */
+    letter-spacing: 0.03em; /* Відстань між літерами */
+    text-transform: uppercase; /* Перетворює текст на великі літери */
+    color: #4d5ae5; /* Колір тексту */
+    text-decoration: none; /* Вимикає підкреслення */
+    display: inline-block;
+    margin-bottom: 16px;
+    }
+
 .logo-span,
 .logo-span-footer {
   color: #2e2f42; /* Колір тексту для логотипа */
