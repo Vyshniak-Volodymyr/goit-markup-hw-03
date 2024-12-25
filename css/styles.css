@@ -65,8 +65,7 @@ body {
   color: #4d5ae5; /* Колір тексту */
   text-decoration: none; /* Вимикає підкреслення */
   display: inline-block;
-  margin-bottom: 16px; /* Відступ до нижнього елементу */
-}
+  }
 
 .logo-span,
 .logo-span-footer {
